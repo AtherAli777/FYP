@@ -1,0 +1,27 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'predict.css') }}">
+<body>
+    <div>
+        <center>
+        <h1>  PREDICTION :  </h1>
+    
+    {%if neg > pos%}
+    <h1 style="color:#FF5733">Sentiment Found Suicidal</h1>  
+    <img src='static\Suicide.png' width="120" height="120">  
+
+    {%else%}
+    <h1 style="color:#007600">Sentiment Found Non Suicidal</h1>
+    <img src='static\nonSuicide.png' width="120" height="120">
+    
+    {%endif%}
+
+        
+</div>
+<form action="http://127.0.0.1:5000/logout" class="msger-inputarea" >
+    <button type="submit" class="msger-pred-btn">Logout</button>
+</form>
+    </center>
+
+</body>
+
+</html>

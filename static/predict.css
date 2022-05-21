@@ -1,0 +1,56 @@
+
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	position: relative;
+	background: #40E0D0;
+	color: rgb(79, 63, 60);
+	font-weight:normal;
+	font-style:normal;
+
+    width: 1280px;
+	margin: 20 auto;
+    padding: 20px;
+}
+
+h1 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 1.8em;
+	margin-bottom: 1.5em;
+}
+
+div{
+	background: #64e5d8;
+	margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    height:25em
+}
+
+.msger-pred-btn{
+    background: #f44336;
+    color: #fff;
+    width:100px;
+    margin:0 auto;
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.23s; 
+  }
+  .msger-pred-btn:hover {
+    background: #e74135;
+  }
+
+  .msger-inputarea {
+    display: flex;
+    padding: 10px;
+    border-top: var(--border);
+  }
+  .msger-inputarea * {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+  }

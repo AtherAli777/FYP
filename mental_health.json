@@ -1,0 +1,270 @@
+{
+    "intents": [
+        {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hey",
+            "How are you",
+            "How are you doing",
+            "Is anyone there?",
+            "What's up?",
+            "Hello",
+            "Good day",
+            "What's popping"
+        ],
+        "responses": [
+            "Hey! Welcome to Alina.",
+            "Hi there, I'm doing well! My name's Alina, what can I do for you?",
+            "Hey there, my name's Alina, your mental health friend. How can I help you today?"
+        ]
+        },
+        {
+            "tag": "goodbye",
+          "patterns": ["Bye", "See you later!", "Goodbye!", "Thank you"],
+          "responses": [
+              "See you later! Take care!",
+              "Have a lovely day! Take care and stay safe!",
+              "Take care of yourself! I'm always here to support you! Feel free to come back at any time!"
+          ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?"
+            ],
+            "responses": [
+                "I.m Alina, your bot assistant",
+                "I'm Alina, an Artificial Intelligent bot"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Alina.",
+                "I'm Alina!",
+                "Just call me as Alina"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "Is it normal to have depression",
+                "Anyone could experienced depression",
+                "Is it normal",
+                "Is it normal to be affected by depression",
+                "Does it temporary or last forever",
+                "I feel like I have let my parents down",
+                "Feel like I'm letting my family down",
+                "I let my parents down",
+                "I feel sorry about my parents",
+                "Always feel like a disappointment to my parents",
+                "Afraid of disappointing my parents",
+                "I think, I am good for nothing",
+                "I'm good at nothing",
+                "How can I survive if I'm good at nothing",
+                "I'm feeling kinda useless",
+                "I'm not good at anything",
+                "I'm useless, will you love me just the same",
+                "I'm not gifted in anything",
+                "I am feeling stressed lately",
+                "I'm kinda stressed lately",
+                "I'm under too much stress",
+                "I'm stressed out of my mind",
+                "I'm too stressed out",
+                "I'm feeling kind of stressed lately",
+                "I have been stressed lately, I am feeling very anxious",
+                "I am stressed out that I end up crying all day",
+                "I am afraid of failure",
+                "I have fear of failure",
+                "I am scary to fail",
+                "Daily, I'm afraid of failure, and abandonment",
+                "I am afraid of not trying","What are the top causes of depression",
+                "What is the first leading cause of depression","What are causes for depression",
+                "What cause depression",
+                "Common causes of depression",
+                "What is the chemistry of causes",
+                "What leads to depression",
+                "Is school a cause of depression?",
+                "What is the biological cause of depression?",
+                 "How does depression affect the world?",
+                 "What is the meaning of anxiety and depression",
+                 "Does oversleeping cause depression?",
+                 "Can lack of sleep make you feel sad?",
+                 "Is depression a side effect of diabetes?"
+            ],
+            "responses": [
+                "Yes it is, Life is all about up and down. Some days you might feel low and at times you have your high. However, for those who are suffering from depression, it is more than just feelings of temporary sadness",
+                "Sure. More than just a bout of the blues, depression is not a weakness and you cannot simply snap out of it. Depression may require long-term treatment. But do not get discouraged. Most people with depression feel better with medication, psychotherapy or both",
+                "Yes of course, depression may occur only once during your life, people typically have multiple episodes. During these episodes, symptoms occur most of the day, nearly every day", "No matter what, your parents will always be proud of you and will love you",
+                "You will feel much better if you share your feelings with them",
+                "It's even shorter, your parents have most faith in you",  "Your perception of how good you are, will never be accurate. If you wake up everyday in the morning, smile to yourself and tell yourself that the day is yours to seize you might stop feeling that way. Carpe Diem! my friend",
+                "Don't ever think you cannot achieve what you want",
+                "You are capable of reaching your goals.Here is a quote for you Everything you can imagine is real",
+                "You are completely wrong! There are many gifts you discover you have as you mature. Also, the important ones are discovered randomly in life, you are in the right place at the right time and your unique personal qualities, experiences and timing will prove you were meant to be who you are",
+                "To get over this feelng, you need to take risks and must be willing to fail. Failing or being average means you are willing to be human-gifts, faults, shortcomings and that’s when you will make someone be glad you are around. Plus, people are attracted to someone they feel more equal to. A superstar’s life is often very lonely.",     "My research says that music is the best way to calm yourself, So listen to your favourite music, it will definitely cheer you up",
+                "This is the best time to read!Pick the books you’e been eyeing for the last few months and spend your morning in bed going through as many chapters",
+                "Take a few deep breaths, focus on the present, make two lists on a piece of paper. First, write all the bad things happening in your life. Second, all the good things you have in your life at present. Now for the first one, crumble it and through it in the bin with all the negativity and for the positive list re read each sentence saying thank you three times at the end of each",
+                "You certainly need motivation. You should feel proud of yourself, feel that there is a big reason that u are still alive and keep on engaging yourself on creative tasks. Furthermore, I suggest to travel different places because it visualizes you how difficultly and differently people are living their lives on different corners of the world",   "Seriously? Anyone who has never made a mistake has never tried anything new",
+                "Failure is the stepping stone towards success, never fear failure",
+                "To be honest, your hardwork and determination will help you reach your goal",
+                "Don't fear failure, failing is simply the opportunity to begin again",
+                "You try, you fail, you try you fail. The real failure is when you stop trying",  "Abuse. Past physical, sexual, or emotional abuse can increase the vulnerability to clinical depression later in life",
+                "Past physical, sexual, or emotional abuse",     "It's complicated, and there are multiple causes of major depression. Factors such as genetic vulnerability, severe life stressors, substances you may take (some medications, drugs and alcohol) and medical conditions can affect the way your brain regulates your moods",
+                "Depression is an extremely complex disease. No one knows exactly what causes it, but it can occur for a variety of reasons. Some people experience depression during a serious medical illness. Others may have depression with life changes such as a move or the death of a loved one. Still others have a family history of depression. Those who do may experience depression and feel overwhelmed with sadness and loneliness for no known reason",
+                "As common as depression is—about one person in 10 experiences depression in any given year—it still eludes complete understanding. The trigger for depression can be almost any negative experience or hardship. Triggers can be external—losing a parent (especially when young), losing a job or developing a debilitating disease or they can be internal and invisible, such a brooding over that most common of experiences, a failed relationship","Not only does school sometimes contribute to depression, depression can also interfere with school. Moreover, research shows that 75 percent of all mental health conditions begin by age 24. Hence, the college years are a critical time for understanding and talking about teen mental health", "There is no single cause for depression; rather it's a combination of stress and a person's vulnerability to developing depression. The predisposition to developing depression can be inherited. Other biological causes for depression can include physical illness, the process of ageing and gender","Depression is a leading cause of disability worldwide and is a major contributor to the overall global burden of disease. More women are affected by depression than men. Depression can lead to suicide. There are effective psychological and pharmacological treatments for moderate and severe depression", "Depression and anxiety disorders are different, but people with depression often experience symptoms similar to those of an anxiety disorder, such as nervousness, irritability, and problems sleeping and concentrating. But each disorder has its own causes and its own emotional and behavioral symptoms",
+                "It's important to remember that oversleeping is a possible symptom of depression and that oversleeping doesn't cause depression",
+                "Studies show people who are sleep deprived report increases in negative moods (anger, frustration, irritability, sadness) and decreases in positive moods. And sleeplessness is often a symptom of mood disorders, such as depression and anxiety",   "If you have diabetes, either type 1 or type 2, you have an increased risk of developing depression. And if you're depressed, you may have a greater chance of developing type 2 diabetes. The good news is that diabetes and depression can be treated together"
+                
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "I think I have anxiety",
+                "What is anxiety?",
+                "Tell me about anxiety",
+                "Can I have some information about anxiety?",
+                "How do I support a loved one with anxiety?",
+                "How do I fix my anxiety?"
+            ],
+            "responses": [
+                "I see that you want to learn more about anxiety, and how to support yourself or your loved ones. At the higest level, anxiety is your body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+            ]
+        }, {
+            "tag": "funny",
+            "patterns": [
+              "Tell me a joke!",
+              "Tell me something funny!",
+              "Do you know a joke?",
+                "joke joke joke", "Give me a joke", "Joke to me", "What is funny", "How about a joke",
+                "Tell me something random", "Give me something funny", "Tell me a random joke",
+                "What is really funny", "Tell me an anecdote", "Tell me a funny story", "make me laugh",
+                "I want to laugh", "Can you make me laugh?", "What can make me laugh"
+            ],
+            "responses": [
+              "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+              "What did the buffalo say when his son left for college? Bison.", "joke joke joke", "What did the Cannibal get when he arrived to the party late? A cold shoulder"]
+          },
+          {
+            "tag": "Suicide",
+            "patterns": [
+                "What should you do if someone tells you they are thinking about suicide?",
+                "Is it possible to predict suicide?",
+                "Why do people attempt suicide?",
+                "What are the most common methods of suicide?",
+                "Is suicide related to impulsiveness?",
+                "What biological factors increase risk for suicide?",
+                "Why do people attempt suicide when they appear to feel better?"
+            ],
+            "responses": [
+                "Suicide is preventable. Any statements about suicide should be taken seriously; 50 to 60 percent of all people who died by suicide gave some warning of their intentions to a friend or family member. Most people considering suicide need help getting through their moment of crisis. Often they have tried to find solutions but may begin to feel hopeless and unable to see alternative solutions to problems. If someone tells you they are thinking about suicide listen non-judgmentally, and help them get to a professional for evaluation and treatment. If someone is in imminent danger of harming himself or herself, do not leave the person alone. You may need to take emergency steps to get help, such as calling 911. When someone is in a suicidal crisis, it is important to limit access to firearms or other lethal means of committing suicide.",
+                "At the current time there is no definitive measure to predict suicide or suicidal behavior. Researchers have identified factors that place individuals at higher risk for suicide, including mental illness, substance abuse, previous suicide attempts, family history of suicide, history of being sexually abused, and impulsive or aggressive tendencies. While many people may think about suicide, attempts and death by suicide are relatively rare events and it is therefore difficult to predict which persons with these risk factors will ultimately complete suicide. What is important is that people considering suicide usually do seek help; for example, in one study, nearly three-fourths of those who died by suicide visited a doctor in the four months before their deaths, and half in the month before. Being aware of risk factors and warning signs can help detect someone that may be at risk for attempting suicide.",
+                "Unfortunately, there is no simple answer to this question. People die by suicide for a number of reasons. A suicide attempt is a clear indication that something is gravely wrong in a person’s life. The majority of people who take their lives (estimated at 90 percent) were suffering with an underlying mental illness and substance abuse problem at the time of their death. No matter the race or age of the person, how rich or poor they are, it is true that most people who die by suicide have a mental illness, emotional disorder and/or chemical dependency. The most common underlying disorder is depression, with an estimated 60 percent of suicides were by people suffering from depression. However, it is very important to remember that the vast majority of people living with depression do not attempt or die by suicide.",
+                "Firearms are the most commonly used method of completing suicide, accounting for more than 50 percent of all suicides. The majority of all firearm suicides are completed by white males. For women, the most common method of suicide was self-poisoning. The presence of a firearm in the home has been found to be an independent, additional risk factor for suicide. Thus, when a family member or health care provider is faced with an individual at risk for suicide, they should make sure that firearms are removed from the home.",
+                "Impulsiveness is the tendency to act without thinking through a plan or its consequences. It is a symptom of a number of mental disorders, and therefore, it has been linked to suicidal behavior because of its association with mental disorders and/or substance abuse. The mental disorders with impulsiveness most linked to suicide include: borderline personality disorder among young females, conduct disorder among young males, antisocial behavior in adult males, and alcohol and substance abuse among young and middle-aged males. Impulsiveness appears to have a lesser role in older adult suicides. Attention deficit disorder with hyperactivity and impulsivity is not a strong risk factor for suicide by itself. Impulsiveness has been linked with aggressive and violent behaviors including homicide and suicide. However, impulsiveness without aggression or violence present has also been found to contribute to risk for suicide.",
+                "Researchers believe that both depression and suicidal behavior can be linked to decreased serotonin in the brain. Low levels of a serotonin metabolite, 5-HIAA, have been detected in cerebral spinal fluid in persons who have attempted suicide, as well as by postmortem studies examining certain brain regions of suicide victims. One of the goals of understanding the biology of suicidal behavior is to improve treatments. Scientists have learned that serotonin receptors in the brain increase their activity in persons with major depression and suicidality, which explains why medications that desensitize or down-regulate these receptors (such as the serotonin reuptake inhibitors, or SSRIs) have been found effective in treating depression. Currently, studies are underway to examine to what extent medications like SSRIs can reduce suicidal behavior.",
+                "Sometimes a severely depressed person contemplating suicide doesn't have enough energy to attempt it. As the depression lifts, they may regain some energy but feelings of hopelessness remain and the increased energy levels may contribute to acting on suicidal feelings. Another theory proposes that a person may  to depression because they can't fight it anymore. Resolving to die relieves some anxiety, which makes them appear calmer in the period preceding a suicide attempt."
+
+            ]
+          },
+          {
+            "tag": "happy",
+            "patterns": [
+              "I am happy",
+              "I feel good"
+                
+            ],
+            "responses": [
+              "Wow! I am happy for you.",
+              "That's good to know, why are you so happy"
+            ]
+          },
+          {
+            "tag": "life",
+            "patterns": [
+              "Life is good"
+                
+            ],
+            "responses": [
+              "Indeed! Life is worth living"
+            ]
+          },
+          {
+            "tag": "die",
+            "patterns": [
+              "I want to die",
+              "I don't wnat to live anymore"
+                
+            ],
+            "responses": [
+              "Do you really want to die, or do you just want the pain to stop?",
+              "I am so sorry to hear this but remember this is temporary. This pain will go away. Think of person that you love the most, if not for you live for them."
+            ]
+          },
+          {
+            "tag": "kill",
+            "patterns": [
+              "I want to kill me",
+              "I don't wnat to live anymore"
+                
+            ],
+            "responses": [
+              "I know sometimes its difficult to live but life is worth it. If you need help call this help line 0311-7786264",
+              "I am so sorry to hear this but remember this is temporary. Here is a little tip write down anything thats bothering you and seek help immediately call this help life for help 0311-7786264"
+            ]
+          },
+          {
+            "tag": "suicidal",
+            "patterns": [
+              "I am having suicidal feelings",
+              "I may suicide"
+                
+            ],
+            "responses": [
+              "If you are feeling like that seek help now call this help line 0311-7786264 for help",
+              "I am so sorry to hear this but remember this is temporary. Here is a little tip write down anything thats bothering you and seek help immediately call this help life for help 0311-7786264"
+            ]
+          }
+
+        ]
+}
